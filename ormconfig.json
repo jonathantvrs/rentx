@@ -1,9 +1,9 @@
 {
   "type": "postgres",
-  "port": 6824,
+  "port": 5432,
   "host": "localhost",
   "username": "docker",
-  "password": "c#ZJPOsaAodx",
+  "password": "ignite",
   "database": "rentx",
   "migrations": ["./dist/shared/infra/typeorm/migrations/*.js"],
   "entities": ["./dist/modules/**/entities/*.js"],
